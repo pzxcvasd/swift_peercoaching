@@ -14,6 +14,7 @@
 		85404DA32B4D548100A8BA49 /* swift_peercoachingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85404DA22B4D548100A8BA49 /* swift_peercoachingTests.swift */; };
 		85404DAD2B4D548100A8BA49 /* swift_peercoachingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85404DAC2B4D548100A8BA49 /* swift_peercoachingUITests.swift */; };
 		85404DAF2B4D548100A8BA49 /* swift_peercoachingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85404DAE2B4D548100A8BA49 /* swift_peercoachingUITestsLaunchTests.swift */; };
+		85404DBD2B4D560700A8BA49 /* week1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85404DBC2B4D560700A8BA49 /* week1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		85404DA82B4D548100A8BA49 /* swift_peercoachingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swift_peercoachingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85404DAC2B4D548100A8BA49 /* swift_peercoachingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_peercoachingUITests.swift; sourceTree = "<group>"; };
 		85404DAE2B4D548100A8BA49 /* swift_peercoachingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_peercoachingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		85404DBC2B4D560700A8BA49 /* week1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = week1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		85404D852B4D548000A8BA49 = {
 			isa = PBXGroup;
 			children = (
+				85404DBB2B4D55F900A8BA49 /* assignments */,
 				85404D902B4D548000A8BA49 /* swift_peercoaching */,
 				85404DA12B4D548100A8BA49 /* swift_peercoachingTests */,
 				85404DAB2B4D548100A8BA49 /* swift_peercoachingUITests */,
@@ -125,6 +128,14 @@
 				85404DAE2B4D548100A8BA49 /* swift_peercoachingUITestsLaunchTests.swift */,
 			);
 			path = swift_peercoachingUITests;
+			sourceTree = "<group>";
+		};
+		85404DBB2B4D55F900A8BA49 /* assignments */ = {
+			isa = PBXGroup;
+			children = (
+				85404DBC2B4D560700A8BA49 /* week1.swift */,
+			);
+			path = assignments;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			files = (
 				85404D942B4D548000A8BA49 /* ContentView.swift in Sources */,
 				85404D922B4D548000A8BA49 /* swift_peercoachingApp.swift in Sources */,
+				85404DBD2B4D560700A8BA49 /* week1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
