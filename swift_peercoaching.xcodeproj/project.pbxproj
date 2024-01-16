@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8513D68E2B56728200793B81 /* week2_lecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8513D68D2B56728200793B81 /* week2_lecture.swift */; };
 		85404D922B4D548000A8BA49 /* swift_peercoachingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85404D912B4D548000A8BA49 /* swift_peercoachingApp.swift */; };
 		85404D942B4D548000A8BA49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85404D932B4D548000A8BA49 /* ContentView.swift */; };
 		85404D962B4D548100A8BA49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85404D952B4D548100A8BA49 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 		85404DAF2B4D548100A8BA49 /* swift_peercoachingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85404DAE2B4D548100A8BA49 /* swift_peercoachingUITestsLaunchTests.swift */; };
 		85404DBD2B4D560700A8BA49 /* week1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85404DBC2B4D560700A8BA49 /* week1.swift */; };
 		85404DC02B4D57B100A8BA49 /* week1_lecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85404DBF2B4D57B100A8BA49 /* week1_lecture.swift */; };
+		85681F632B53F2FB0088EFC4 /* swiftprojects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85681F622B53F2FB0088EFC4 /* swiftprojects.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8513D68D2B56728200793B81 /* week2_lecture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = week2_lecture.swift; sourceTree = "<group>"; };
 		85404D8E2B4D548000A8BA49 /* swift_peercoaching.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift_peercoaching.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85404D912B4D548000A8BA49 /* swift_peercoachingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_peercoachingApp.swift; sourceTree = "<group>"; };
 		85404D932B4D548000A8BA49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +51,7 @@
 		85404DAE2B4D548100A8BA49 /* swift_peercoachingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_peercoachingUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		85404DBC2B4D560700A8BA49 /* week1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = week1.swift; sourceTree = "<group>"; };
 		85404DBF2B4D57B100A8BA49 /* week1_lecture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = week1_lecture.swift; sourceTree = "<group>"; };
+		85681F622B53F2FB0088EFC4 /* swiftprojects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftprojects.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,7 @@
 		85404D852B4D548000A8BA49 = {
 			isa = PBXGroup;
 			children = (
+				85681F612B53F2D00088EFC4 /* oreilly_books */,
 				85404DBE2B4D579500A8BA49 /* lectures */,
 				85404DBB2B4D55F900A8BA49 /* assignments */,
 				85404D902B4D548000A8BA49 /* swift_peercoaching */,
@@ -145,8 +150,17 @@
 			isa = PBXGroup;
 			children = (
 				85404DBF2B4D57B100A8BA49 /* week1_lecture.swift */,
+				8513D68D2B56728200793B81 /* week2_lecture.swift */,
 			);
 			path = lectures;
+			sourceTree = "<group>";
+		};
+		85681F612B53F2D00088EFC4 /* oreilly_books */ = {
+			isa = PBXGroup;
+			children = (
+				85681F622B53F2FB0088EFC4 /* swiftprojects.swift */,
+			);
+			path = oreilly_books;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,9 +294,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				85404D942B4D548000A8BA49 /* ContentView.swift in Sources */,
+				85681F632B53F2FB0088EFC4 /* swiftprojects.swift in Sources */,
 				85404D922B4D548000A8BA49 /* swift_peercoachingApp.swift in Sources */,
 				85404DC02B4D57B100A8BA49 /* week1_lecture.swift in Sources */,
 				85404DBD2B4D560700A8BA49 /* week1.swift in Sources */,
+				8513D68E2B56728200793B81 /* week2_lecture.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
