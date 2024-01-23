@@ -11,7 +11,7 @@ import SwiftUI
 struct swift_peercoachingApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            week3_lecture()
         }
     }
 }

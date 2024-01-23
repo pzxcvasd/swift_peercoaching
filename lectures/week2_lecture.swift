@@ -62,9 +62,6 @@ struct week2_lecture: View {
                 } header: {
                     Text("실제 1인당 지불 값")
                 }
-                Section {
-                    Text("팁 퍼센트 확인용 : \(tip)")
-                }
                 
             }.navigationTitle("We Split")
         }
